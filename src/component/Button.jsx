@@ -65,11 +65,13 @@ const send=()=>{
 
     }else{
       console.log('invalid pin')
+      alert('invalid pin')
     }
 
 
   }else{
     console.log('invalid amount')
+    alert('insufficient fund')
   }
    }
 
