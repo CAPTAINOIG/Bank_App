@@ -1,0 +1,29 @@
+#section{
+   background-image: url(https://dl.dropbox.com/s/8bojjv34k37t16m/Webp.net-resizeimage%20%282%29.jpg?raw=1); 
+    background-position: center;
+   background-size: cover;
+   height: 100vh; 
+   background-repeat: no-repeat fixed; 
+   
+   
+}
+ #login{
+    margin-top: 200px;
+}
+#log{
+    margin-top: 50px;
+    color: rgb(2,8,44);
+}
+#mem{
+    color: rgb(2,8,44);
+    margin-top: 50px;
+}
+#up{
+    margin-left: 290px;
+    color: rgb(2,8,44);
+    margin-top: 50px;
+
+}
+#button{
+    background-color: rgb(2,8,44); 
+}

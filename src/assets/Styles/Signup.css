@@ -1,0 +1,10 @@
+#sec{
+    background-image: url(https://source.unsplash.com/E8Ufcyxz514/2400x1823); 
+   background-position: center;
+   background-size: cover;
+   height: 100vh;
+   background-repeat: no-repeat fixed;
+}
+#sign{
+    margin-top: 150px;
+}

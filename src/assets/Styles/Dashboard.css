@@ -1,0 +1,22 @@
+li{
+    list-style-type: none;
+}
+
+#two{
+    height: 15vh;
+    width: 100vw; 
+    
+    z-index: -1;
+ }
+ #menu{
+    z-index: 1;
+    font-size: 20px;
+    width: 100vw;
+    margin-top: -50px;
+    color: white;
+    /* height: 150px; */
+  }
+  #welly{
+    font-size: 20px;
+    font-weight: bold;
+  }
