@@ -44,7 +44,7 @@ const Navbar = () => {
         </ul>
         <form className="d-flex px-5" role="search">
         <Link id='signup' className='text-light  fs-3  fw-bold text-decoration-none w-100' to="/signup"> <button  className='btn btn-lg btn-danger'>SIGN UP</button></Link>
-        <div><Link className='ms-2 text-light fs-3 fw-bold text-decoration-none' to="/signin"><button className='btn btn-lg btn-danger'>SIGN IN</button> </Link></div>
+        <div id='signin'><Link  className='ms-2 text-light fs-3 fw-bold text-decoration-none' to="/signin"><button className='btn btn-lg btn-danger'>SIGN IN</button> </Link></div>
 
         </form>
       </div>

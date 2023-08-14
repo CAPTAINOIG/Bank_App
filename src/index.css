@@ -1,4 +1,4 @@
-@media(max-width: 600px){
+@media(max-width: 700px){
     #foote{
         border: 0px solid blue;
         margin-top: 85px;
@@ -7,6 +7,12 @@
     #signup{
         margin-left: -50px;
     }
+    #signin{
+        margin-top: 60px;
+        margin-left: -260px;
+
+    }
+
     #img{
         width: 100px;
         height: 100px;
@@ -34,7 +40,7 @@
     font-size: 40px;
     color: brown;
     font-weight: bold;
-    margin-left: 150px;
+    margin-left: 140px;
 }
 #well{
     font-size: 10px;
@@ -60,6 +66,7 @@ li{
   }
   #welly{
     font-size: 10px;
+    width: 100%;
   }
   #card{
     position: absolute;
@@ -132,11 +139,31 @@ li{
     width: 50%;
     height: 20%;
 }
+
+
+#login{
+    margin-top: 200px;
+}
+#log{
+    margin-top: 50px;
+    color: rgb(2,8,44);
+}
+#mem{
+    color: rgb(2,8,44);
+    margin-top: 50px;
+}
+#up{
+    margin-left: 0px;
+    color: rgb(2,8,44);
+    margin-top: 50px;
+
+}
+#button{
+    background-color: rgb(2,8,44); 
 }
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+}
+
 
 #img3{
     margin-left: 300px;
