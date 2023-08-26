@@ -16,10 +16,10 @@ const Navbar = () => {
       <div className="collapse navbar-collapse" id="navbarSupportedContent">
         <ul className="navbar-nav me-auto">
           <li className="nav-item">
-            <Link className="nav-link active text-light fw-bold fs-3" aria-current="page" to="/">Home</Link>
+            <Link className="nav-link active text-light fw-bold fs-5" aria-current="page" to="/">Home</Link>
           </li>
           <li className="nav-item dropdown">
-            <a className="nav-link dropdown-toggle text-light fw-bold fs-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a className="nav-link dropdown-toggle text-light fw-bold fs-5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
             </a>
             <ul className="dropdown-menu">
@@ -30,7 +30,7 @@ const Navbar = () => {
             </ul>
           </li>
           <li className="nav-item dropdown px-1">
-          <Link className="nav-link dropdown-toggle text-light fw-bold fs-3" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Company</Link>
+          <Link className="nav-link dropdown-toggle text-light fw-bold fs-5" to="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" >Company</Link>
           <ul className="dropdown-menu border-0 shadow-sm">
               <li className='py-1'><Link to="/signup" className="dropdown-item">Sign Up</Link></li>
               <li className='py-1'><Link to="/signin" className="dropdown-item">Sign in</Link></li>
@@ -43,8 +43,8 @@ const Navbar = () => {
     
         </ul>
         <form className="d-flex px-5" role="search">
-        <Link id='signup' className='text-light  fs-3  fw-bold text-decoration-none w-100' to="/signup"> <button  className='btn btn-lg btn-danger'>SIGN UP</button></Link>
-        <div id='signin'><Link  className='ms-2 text-light fs-3 fw-bold text-decoration-none' to="/signin"><button className='btn btn-lg btn-danger'>SIGN IN</button> </Link></div>
+        <Link id='signup' className='text-light  fs-5  fw-bold text-decoration-none w-100' to="/signup"> <button  className='btn btn-lg btn-danger'>SIGN UP</button></Link>
+        <div id='signin'><Link  className='ms-2 text-light fs-5 fw-bold text-decoration-none' to="/signin"><button className='btn btn-lg btn-danger'>SIGN IN</button> </Link></div>
 
         </form>
       </div>

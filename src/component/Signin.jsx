@@ -103,7 +103,7 @@ const Signin = () => {
                     <button id='button' type='submit' className='btn fs-4 text-light fw-bold rounded w-100 my-2'>Submit</button>
                     </form>
                     <div className="d-flex">
-                    <p id='mem' className='fs-3'>Not a member?</p> 
+                    <p id='mem' className='fs-5'>Not a member?</p> 
                     <span ><Link className='text-decoration-none fs-5 text-light mb-3 btn bg-dark' id='up' to="/Signup">Sign up now</Link></span>
                     </div>
                 

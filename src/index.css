@@ -12,6 +12,9 @@
         margin-left: -260px;
 
     }
+    #sign{
+        width: 80%;   
+    }
 
     #img{
         width: 100px;
@@ -142,7 +145,8 @@ li{
 
 
 #login{
-    margin-top: 200px;
+    margin-top: 120px;
+    width: 75%;
 }
 #log{
     margin-top: 50px;

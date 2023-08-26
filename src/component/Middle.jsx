@@ -16,7 +16,7 @@ const Middle = () => {
                             <h1 className='premiumy'>APP</h1>
                         </div>
                     <div id='row2' className="col-lg-6">
-                    <img className='img-fluid' src={Mobile} alt="" />
+                    <img className='' src={Mobile} alt="" width={400} />
                     </div>
 
                 </div>
