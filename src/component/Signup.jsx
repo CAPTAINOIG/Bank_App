@@ -7,9 +7,6 @@ import '../assets/Styles/Signup.css'
 
 
 
-
-
-
 const Signup = () => {
     const max =(Math.round(Math.random()*10000000000));
     const date= new Date().toLocaleDateString()
@@ -41,7 +38,7 @@ const Signup = () => {
             time,
             AdditionalInformation:{
                 balance:balance,
-                date,
+                date, 
                 time,
                 transact:transact, 
             },
@@ -55,7 +52,7 @@ const Signup = () => {
             if (values) {
                 const storage = localStorage.getItem('formy')
                 if(storage){
-                    let data = JSON.parse(storage)
+                    let data = JSON.parse(storage) 
                     data.push(values)
 
                     localStorage.setItem("formy", JSON.stringify(data));

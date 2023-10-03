@@ -1,22 +1,73 @@
 import React from 'react'
-import '../assets/Styles/Card.css'
+import {BsDatabaseAdd} from 'react-icons/bs'
+import {MdCallToAction} from 'react-icons/md'
+import {PiCubeTransparent} from 'react-icons/pi'
+import {FcElectricity} from 'react-icons/fc'
 
 const Card = () => {
   return (
     <>
-    
-    <div className="row">
-    <div id='card1' className="col-sm-6 w-50  mb-sm-0">
-      <div className="card border-light shadow">
-        <div className="card-body">
-          <h5 className="card-title">Special title treatment</h5>
-          <p className="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" className="btn btn-primary">Go somewhere</a>
+    <h1 className='text-light text-center'>Services</h1>
+    <div id='container' className='container rounded text-center bg-secondary'>
+    <div className='row'>
+        <div className='col-lg-3 text-center'>
+            <p><BsDatabaseAdd/></p>
+            <p>Data Bundle</p>
         </div>
-      </div>
+        <div className='col-lg-3'>
+            <p><MdCallToAction/></p>
+            <p>Airtime</p>
+        </div>
+        <div className='col-lg-3'>
+            <p><PiCubeTransparent/></p>
+            <p>Betking</p>
+        </div>
+        <div className='col-lg-3'>
+            <p><FcElectricity/></p>
+            <p>Electricity</p>
+        </div>
     </div>
+
+    <div className='row'>
+        <div className='col-lg-3'>
+            <p><BsDatabaseAdd/></p>
+            <p>Data Bundle</p>
+        </div>
+        <div className='col-lg-3'>
+            <p><MdCallToAction/></p>
+            <p>Airtime</p>
+        </div>
+        <div className='col-lg-3'>
+            <p><PiCubeTransparent/></p>
+            <p>Betking</p>
+        </div>
+        <div className='col-lg-3'>
+            <p><FcElectricity/></p>
+            <p>Electricity</p>
+        </div>
+    </div>
+    <div className='row'>
+        <div className='col-lg-3'>
+            <p><BsDatabaseAdd/></p>
+            <p>Data Bundle</p>
+        </div>
+        <div className='col-lg-3'>
+            <p><MdCallToAction/></p>
+            <p>Airtime</p>
+        </div>
+        <div className='col-lg-3'>
+            <p><PiCubeTransparent/></p>
+            <p>Betking</p>
+        </div>
+        <div className='col-lg-3'>
+            <p><FcElectricity/></p>
+            <p>Electricity</p>
+        </div>
+    </div>
+    </div>
+
+
     
-  </div>
     </>
   )
 }

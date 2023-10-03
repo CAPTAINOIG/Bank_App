@@ -4,16 +4,17 @@
     top: 10%;
     left: 10%;
     height: 22%;
-    z-index: 2;
+  
     
 }
 #three{
     border: 0px solid red;
     width: 200px;
     height: 50px;
-    background-color: green;
-    margin-left: 400px;
+    background-color: rgb(51, 0, 51);
+    margin-left: 260px;
     margin-top: -20px;
+    border-radius: 10px;
     color: white;
     cursor: pointer;
     font-weight: bold;
@@ -22,19 +23,21 @@
     border: 0px solid red;
     width: 200px;
     height: 50px;
-    background-color: blue;
+    background-color: rgb(51, 0, 51);
     margin-left: 20px;
     color: white;
     margin-top: -20px;
     cursor: pointer;
+    border-radius: 10px;
     font-weight: bold;
 }
 #five{
     border: 0px solid red;
+    border-radius: 10px;
     width: 200px;
     margin-top: -20px;
     height: 50px;
-    background-color: red;
+    background-color: rgb(51, 0, 51);
     margin-left: 20px;
     color: white;
     font-weight: bold;

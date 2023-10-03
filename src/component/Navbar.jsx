@@ -7,7 +7,7 @@ import '../assets/Styles/Navbar.css'
 const Navbar = () => {
   return (
     <>
-    <nav className="navbar navbar-expand-lg bg-primary">
+    <nav id='navbar' className="navbar navbar-expand-lg">
     <div className="container-fluid">
     <img id='img' src={oig1} alt="" />
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">

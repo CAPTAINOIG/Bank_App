@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import '../assets/Styles/Button.css'
 import { Link } from 'react-router-dom'
-
+import{AiFillEye} from 'react-icons/ai'
 
 
 
@@ -9,6 +9,12 @@ const Button = ({currentUser, updateAmount}) => {
   // console.log(currentUser)
 
 
+  
+let date = new Date().toDateString()
+let datey = new Date().toLocaleTimeString()
+
+console.log(date);
+console.log(datey);
   const data2 =  JSON.parse(localStorage.getItem("formy"));
   // console.log(data2);
     const [pin2, setPin2] = useState("")
@@ -82,23 +88,25 @@ const send=()=>{
     return (
         <>
 
-<div id='card' className="card border-light shadow mx-auto">
+<div id='card' className="bg-secondary rounded shadow mx-auto">
   <div className="card-header">
-       <h1 id='bal' className='text-primary fw-bold'>BALANCE: #{currentUser.amount} </h1> 
-      <div className="card-body d-flex">
+  <div className='d-flex justify-content-around'>
+  <div id='bal' className='text-light fw-bold'>Available Balance <AiFillEye/> #{currentUser.amount} </div> 
+  <div id='date' className='text-light fw-bold'>
+  {date}
+  {datey}
+  </div>
+  <div id='ball'><Link className="text-decoration-none text-light fw-bold" to={"/dashboard/history"}>Transaction History</Link></div>
+  </div>
+      <div className="card-body d-flex mt-5">
        <button id='three' type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">
         Send
        </button>
        <button id='four' onClick={addMoney}>add Money</button>
        <button id='five'>Withdraw</button>
-      
-       <span id='history'><Link className="text-decoration-none" to={"/dashboard/history"}>Transaction History</Link></span>
-
     </div>
   </div>
 </div>
-
-
 <div className="modal fade" id="exampleModal" tabIndex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
       <div className="modal-dialog">
       <div className="modal-content">
