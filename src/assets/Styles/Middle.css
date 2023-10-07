@@ -1,7 +1,9 @@
 
 
-#row2{
+.row2{
     margin-top: 50px;
+    margin-left: 50px;
+    height: 400px;
 }
 .premiu{
     margin-left: 50px;

@@ -86,7 +86,7 @@ const Signin = () => {
         <div className="container">
         <div className="row">
         
-            <div id='login' className="col-lg-6 px-3 shadow bg-light mx-auto">
+            <div id='login' className="col-lg-6 px-3 shadow rounded bg-light mx-auto">
                 <h1 id='log' className='text-center'>LOGIN</h1>
 
                 <form action="" onSubmit={formik.handleSubmit}>
